@@ -1,0 +1,53 @@
+Phishing
+Descrição: É uma tentativa de roubo de dados sensíveis, como senhas, números de cartões de crédito, informações bancárias, por meio de e-mails, sites falsos ou mensagens fraudulentas.
+Exemplo real: Golpe da phishing em 2016 contra o Yahoo:
+     Ano: 2016
+     Tipo: Phishing
+     Empresa: Yahoo
+     Prejuízo: Cerca de 500 milhões de contas foram comprometidas, incluindo dados de e-mails, senhas e outras informações pessoais. O prejuízo financeiro foi indireto, afetando a reputação da empresa e sua venda para a Verizon por um valor reduzido de US$ 4,8 bilhões.
+   
+Ransomware
+Descrição: Um software malicioso que bloqueia o acesso a sistemas ou arquivos até que um resgate seja pago. Frequentemente afeta empresas e instituições públicas.
+Exemplo real: Ataque de Ransomware WannaCry em 2017:
+     Ano: 2017
+     Tipo: Ransomware
+     Empresa: Diversas, incluindo o Serviço Nacional de Saúde (NHS) do Reino Unido
+     Prejuízo: O ataque afetou mais de 200.000 computadores em 150 países, causando danos significativos ao NHS, que estimou um prejuízo de cerca de £92 milhões (aproximadamente US$ 120 milhões).
+   
+Ataque de Negação de Serviço (DDoS)
+Descrição: Ataques em que múltiplos sistemas são usados para sobrecarregar um servidor, rede ou serviço, tornando-o inacessível para os usuários legítimos.
+Exemplo real: Ataque DDoS contra o Dyn em 2016:
+     Ano: 2016
+     Tipo: DDoS (Denial of Service)
+     Empresa: Dyn (provedor de DNS)
+     Prejuízo: Este ataque derrubou sites populares como Twitter, Spotify, e Reddit, impactando a internet de forma generalizada. O prejuízo financeiro não foi publicamente divulgado, mas o impacto foi enorme em termos de interrupção de serviços e reputação.
+
+
+2 Tipos de Ataques na Internet
+
+SQL Injection
+Descrição: Consiste em inserir comandos SQL maliciosos em um formulário de entrada de dados para acessar ou manipular um banco de dados.
+Exemplo real: Ataque ao site da Sony Pictures em 2014:
+     Ano: 2014
+     Tipo: SQL Injection
+     Empresa: Sony Pictures
+     Prejuízo: O ataque resultou no roubo de informações confidenciais, incluindo e-mails e dados financeiros. Estima-se que o prejuízo tenha sido de milhões de dólares em danos à reputação, custos legais e recuperação de sistemas.
+   
+Cross-Site Scripting (XSS)
+Descrição: Ataque onde o atacante injeta scripts maliciosos em páginas web visualizadas por outros usuários, com o intuito de roubar dados ou controlar ações do navegador.
+Exemplo real: Ataque XSS no Facebook em 2011:
+     Ano: 2011
+     Tipo: Cross-Site Scripting (XSS)
+     Empresa: Facebook
+     Prejuízo: O ataque foi usado para injetar um código malicioso que afetava as páginas de perfil dos usuários, embora o impacto financeiro direto não tenha sido amplamente divulgado, houve danos à confiança dos usuários e à reputação da empresa.
+
+Ferramentas para Provocar Vulnerabilidades
+SQLMap
+   Descrição: Uma ferramenta de código aberto que automatiza a exploração de falhas de SQL Injection. Ela permite que os atacantes identifiquem e explorem falhas em sistemas que usam bancos de dados SQL, oferecendo uma maneira rápida de injetar comandos SQL e acessar dados.
+   Comentário: Essa ferramenta é amplamente usada por hackers e profissionais de segurança para testar a robustez de sistemas. Seu uso indevido pode resultar em acesso não autorizado a dados sensíveis.
+
+Burp Suite
+   Descrição: Uma plataforma de testes de segurança em aplicações web que pode ser usada para realizar ataques XSS, entre outros. O Burp Suite intercepta o tráfego HTTP/HTTPS, permite modificar requisições e detectar falhas de segurança em tempo real.
+   Comentário: Burp Suite é uma ferramenta essencial para testes de penetração e auditoria de segurança, mas também pode ser usada para fins maliciosos, como explorar falhas de XSS e outras vulnerabilidades de segurança em sites.
+
+Esses ataques e ferramentas são frequentemente usados para explorar falhas de segurança na web e podem causar danos consideráveis a empresas e indivíduos.
